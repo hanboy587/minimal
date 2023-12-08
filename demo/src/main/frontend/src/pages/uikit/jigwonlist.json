@@ -1,0 +1,38 @@
+[
+    {
+        "ID": 1,
+        "realname":"나이스",
+        "sosog":"인사",
+        "jiggeub":"대리",
+        "jigchaeg":"팀원"
+        
+    },
+    {
+        "ID": 2,
+        "realname":"동그라미",
+        "sosog":"홍보",
+        "jiggeub":"부장",
+        "jigchaeg":"팀장"
+    },
+    {
+        "ID": 3,
+        "realname":"세모",
+        "sosog":"홍보",
+        "jiggeub":"사원",
+        "jigchaeg":"팀원"
+    },
+    {
+        "ID": 4,
+        "realname":"네모",
+        "sosog":"홍보",
+        "jiggeub":"대리",
+        "jigchaeg":"팀원"
+    },
+    {
+        "ID": 5,
+        "realname":"사각",
+        "sosog":"인사",
+        "jiggeub":"부장",
+        "jigchaeg":"팀장"
+    }
+]

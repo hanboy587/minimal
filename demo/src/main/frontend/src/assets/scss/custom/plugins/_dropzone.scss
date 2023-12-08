@@ -1,0 +1,43 @@
+//
+// dropzone.scss
+//
+
+// 기본
+.dropzone {
+    border: 2px dashed $input-border-color;
+    background: $input-bg;
+    border-radius: 6px;
+    cursor: pointer;
+    min-height: 150px;
+    padding: 20px;
+
+    .dz-message {
+        text-align: center;
+        margin: 2rem 0;
+    }
+    &.dz-started {
+        .dz-message {
+            display: none;
+        }
+    }
+}
+
+// 입사서류 직정등록 
+.dropzone2 {
+    border: 2px dashed $input-border-color;
+    background: $input-bg;
+    border-radius: 6px;
+    cursor: pointer;
+    min-height: 80px;
+    padding: 10px;
+
+    .dz-message2 {
+        text-align: center;
+        // margin: 2rem 0;
+    }
+    &.dz-started {
+        .dz-message {
+            display: none;
+        }
+    }
+}

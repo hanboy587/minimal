@@ -1,0 +1,24 @@
+@startuml
+object 급여명세서
+diamond dia1
+diamond dia2
+object 연월도클릭방지
+object 이전월도명세서
+object 현재월도명세서
+object 다음월도명세서
+object 해당연도명세서
+object 명세서메일발송
+object 명세서pdf저장
+
+급여명세서 --> 연월도클릭방지 : db값없음
+급여명세서 --> dia1 : 조회
+급여명세서 --> dia2
+
+dia1 --> 이전월도명세서 : 이전월도버튼
+dia1 --> 현재월도명세서
+dia1 --> 다음월도명세서 : 다음월도버튼
+dia1 --> 해당연도명세서 : 연도결정select
+
+dia2 --> 명세서메일발송 : 메일발송버튼
+dia2 --> 명세서pdf저장 : pdf저장버튼
+@enduml

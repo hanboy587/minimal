@@ -12,6 +12,7 @@ public class UserRepsitory {
     @Autowired
     JdbcTemplate jdbcTemplate;
 
+    // users table의 userName 컬럼 반환 - 연동 테스트용
     public List<String> getAllUserNames() {
         List<String> usernameList = new ArrayList<>();
         usernameList.addAll(jdbcTemplate.queryForList("select userName from users;", String.class));
@@ -19,20 +20,7 @@ public class UserRepsitory {
         return usernameList;
     }
 
-//    public Map<String, Object> getAllUsers() {
-//        List<Map<String, Object>> resultList = jdbcTemplate.queryForList("select userNo, userName from users;");
-//
-//        Map<String, Object> userList = new HashMap<>();
-//
-//        for (Map<String, Object> result : resultList) {
-//            String userNo = result.get("userNo").toString();
-//            String userName = result.get("userName").toString();
-//            userList.put(userNo, userName);
-//        }
-//
-//        return userList;
-//    }
-
+    // users table의 모든 컬럼 반환 - grid 출력용
     public List<Map<String, Object>> getAllUsers() {
         List<Map<String, Object>> userList = new ArrayList<>();
         userList.addAll(jdbcTemplate.queryForList("select userNo, userName from users"));

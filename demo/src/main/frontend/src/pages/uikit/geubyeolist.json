@@ -1,0 +1,176 @@
+{
+  "basic": {
+    "item": "기본급여",
+    "pay": "2,500,000",
+    "isDone": false
+  },
+  "juhyusudang": {
+    "item": "주휴수당",
+    "pay":0,
+    "isDone": false
+  },
+  "yeonjangsudang": {
+    "item": "연장수당",
+    "pay": "200,000",
+    "isDone": false
+  },
+  "yagansudang": {
+    "item": "야간수당",
+    "pay": 0,
+    "isDone": false
+  },
+  "yeonchasudang": {
+    "item": "연차수당",
+    "pay": 0,
+    "isDone": false
+  },
+  "hyuilsudang": {
+    "item": "휴일수당",
+    "pay": 0,
+    "isDone": false
+  },
+  "hyueobsudang": {
+    "item": "휴업수당",
+    "pay": 0,
+    "isDone": false
+  },
+  "sigdae": {
+    "item": "식대",
+    "pay": "100,000",
+    "isDone": false
+  },
+  "boyugsudang": {
+    "item": "보육수당",
+    "pay": 0,
+    "isDone": false
+  },
+  "unjeonbojogeum": {
+    "item": "운전보조금",
+    "pay": 0,
+    "isDone": false
+  },
+  "myeongjeolsudang": {
+    "item": "명절수당",
+    "pay": 0,
+    "isDone": false
+  },
+  "Decwolchaaeg": {
+    "item": "12월차액",
+    "pay": 0,
+    "isDone": false
+  },
+  "geunsoggongjejigeub": {
+    "item": "근속공제",
+    "pay": 0,
+    "isDone": false
+  },
+  "sangyeo": {
+    "item": "상여",
+    "pay": "1,000,000",
+    "isDone": false
+  },
+  "gugminyeongeum": {
+    "item": "국민연금",
+    "pay": "99,000",
+    "isDone": false
+  },
+  "geongangboheom": {
+    "item": "건강보험",
+    "pay": "65,250",
+    "isDone": false
+  },
+  "goyongboheom": {
+    "item": "고용보험",
+    "pay": "12,680",
+    "isDone": false
+  },
+  "janggiyoyangboheom": {
+    "item": "장기요양보험",
+    "pay": "2,320",
+    "isDone": false
+  },
+  "sodeugse": {
+    "item": "소득세",
+    "pay": "12,750",
+    "isDone": false
+  },
+  "jibangsodeugse": {
+    "item": "지방소득세",
+    "pay": "7,350",
+    "isDone": false
+  },
+  "saeobsodeugse": {
+    "item": "사업소득세",
+    "pay": 0,
+    "isDone": false
+  },
+  "jepumnaesu": {
+    "item": "제품내수",
+    "pay": 0,
+    "isDone": false
+  },
+  "byeongga": {
+    "item": "병가",
+    "pay": 0,
+    "isDone": false
+  },
+  "yeonmaljeongsanso": {
+    "item": "연말정산(소)",
+    "pay": 0,
+    "isDone": false
+  },
+  "yeonmaljeongsanji": {
+    "item": "연말정산(지)",
+    "pay": 0,
+    "isDone": false
+  },
+  "geunsoggongje": {
+    "item": "근속공제",
+    "pay": 0,
+    "isDone": false
+  },
+  "jigeubhabgye": {
+    "item": "지급합계",
+    "pay": "4,251,640",
+    "isDone": false
+  },
+  "gongjenaeyeog": {
+    "item": "공제내역",
+    "pay": "435,890",
+    "isDone": false
+  },
+  "silsulyeongaeg": {
+    "item": "실수령액",
+    "pay": "3,735,220",
+    "isDone": false
+  },
+  "gongjeilsu": {
+    "item": "공제일수",
+    "days": "0",
+    "isDone": false
+  },
+  "chonggeunlosigansu": {
+    "item": "총근로시간수",
+    "timenumber": "230",
+    "isDone": false
+  },
+  "yeonjanggeunlosigansu": {
+    "item": "연장근로시간수",
+    "timenumber": "10",
+    "isDone": false
+  },
+  "yagangeunlosigansu": {
+    "item": "야간근로시간수",
+    "timenumber": "0",
+    "isDone": false
+  },
+  "hyuilgeunlosigansu": {
+    "item": "휴일근로시간수",
+    "timenumber": "0",
+    "isDone": false
+  },
+  "Monthly":{
+    "Month": "09",
+    "isDone": false
+  }
+}

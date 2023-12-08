@@ -1,0 +1,24 @@
+@startuml
+title 스케줄선택조회
+
+start
+:스케줄선택조회;
+
+switch()
+    case (유저selectBox)
+        :해당유저일정;
+    case ()
+        :이전달;
+    case ()
+        :다음달;
+    case ()
+        :오늘;
+    case ()
+        :월간;
+    case ()
+        :주간;
+    case ()
+        :일간;
+    endswitch
+end
+@enduml

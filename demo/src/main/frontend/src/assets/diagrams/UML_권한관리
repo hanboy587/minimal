@@ -1,0 +1,24 @@
+@startuml
+title 권한관리
+
+start
+:권한관리;
+
+switch ()
+    case (조회)
+        :권한관련grid출력;
+    end
+    case (권한)
+        :권한select;
+    case (조직)
+        :조직check;
+    case (인사)
+        :인사check;
+    case (근태)
+        :근태check;
+    case (휴가)
+        :휴가check;
+endswitch
+:권한수정버튼;
+:권한수정;
+@enduml

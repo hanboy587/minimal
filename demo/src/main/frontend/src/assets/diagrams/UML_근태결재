@@ -1,0 +1,38 @@
+@startuml
+title 근태결재
+
+start
+:근태결재;
+
+switch()
+    case (일정생성요청)
+        switch()
+            case ()
+                :출근신청;
+            case ()
+                :퇴근신청;
+            case ()
+                :휴가신청;
+            case ()
+                :출장신청;
+            case ()
+                :조퇴신청;
+            case ()
+                :추가근무;
+        endswitch
+        :요청승인;
+        end
+    case (월버튼)
+        :월간조회;
+    case (주버튼)
+        :주간조회;
+    case (일버튼)
+        :일간조회;
+    case (이전달)
+        :이전달달력;
+    case (다음달)
+        :다음달달력;
+endswitch
+
+stop
+@enduml

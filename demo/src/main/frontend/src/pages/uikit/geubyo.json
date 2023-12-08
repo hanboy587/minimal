@@ -1,0 +1,212 @@
+{
+  "jigeob": [
+    {
+      "ID": 1,
+      "name": "basic",
+      "item": "기본급여",
+      "pay": 2500000
+    },
+    {
+      "ID": 2,
+      "name": "juhyusudang",
+      "item": "주휴수당",
+      "pay": 0
+    },
+    {
+      "ID": 3,
+      "name": "yeonjangsudang",
+      "item": "연장수당",
+      "pay": 200000
+    },
+    {
+      "ID": 4,
+      "name": "yagansudang",
+      "item": "야간수당",
+      "pay": 0
+    },
+    {
+      "ID": 5,
+      "name": "yeonchasudang",
+      "item": "연차수당",
+      "pay": 0
+    },
+    {
+      "ID": 6,
+      "name": "hyuilsudang",
+      "item": "휴일수당",
+      "pay": 0
+    },
+    {
+      "ID": 7,
+      "name": "hyueobsudang",
+      "item": "휴업수당",
+      "pay": 0
+    },
+    {
+      "ID": 8,
+      "name": "sigdae",
+      "item": "식대",
+      "pay": 100000
+    },
+    {
+      "ID": 9,
+      "name": "boyugsudang",
+      "item": "보육수당",
+      "pay": 0
+    },
+    {
+      "ID": 10,
+      "name": "unjeonbojogeum",
+      "item": "운전보조금",
+      "pay": 0
+    },
+    {
+      "ID": 11,
+      "name": "myeongjeolsudang",
+      "item": "명절수당",
+      "pay": 0
+    },
+    {
+      "ID": 12,
+      "name": "Decwolchaaeg",
+      "item": "12월차액",
+      "pay": 0
+    },
+    {
+      "ID": 13,
+      "name": "sangyeo",
+      "item": "상여",
+      "pay": 1000000
+    },
+    {
+      "ID": 14,
+      "name": "jigeubhabgye",
+      "item": "지급합계",
+      "pay": 4251640
+    },
+    {
+      "ID": 15,
+      "name": "silsulyeongaeg",
+      "item": "실수령액",
+      "pay": 3425640
+    }
+  ],
+  "공제항목": [
+    {
+      "ID": 1,
+      "name": "geunsoggongjejigeub",
+      "item": "근속공제",
+      "pay": 0
+    },
+    {
+      "ID": 2,
+      "name": "gugminyeongeum",
+      "item": "국민연금",
+      "pay": 100000
+    },
+    {
+      "ID": 3,
+      "name": "geongangboheom",
+      "item": "건강보험",
+      "pay": 40000
+    },
+    {
+      "ID": 4,
+      "name": "goyongboheom",
+      "item": "고용보험",
+      "pay": 24000
+    },
+    {
+      "ID": 5,
+      "name": "janggiyoyangboheom",
+      "item": "장기요양보험",
+      "pay": 2500
+    },
+    {
+      "ID": 6,
+      "name": "sodeugse",
+      "item": "소득세",
+      "pay": 12500
+    },
+    {
+      "ID": 7,
+      "name": "jibangsodeugse",
+      "item": "지방소득세",
+      "pay": 9500
+    },
+    {
+      "ID": 8,
+      "name": "saeobsodeugse",
+      "item": "사업소득세",
+      "pay": 0
+    },
+    {
+      "ID": 9,
+      "name": "jepumnaesu",
+      "item": "제품내수",
+      "pay": 0
+    },
+    {
+      "ID": 10,
+      "name": "byeongga",
+      "item": "병가",
+      "pay": 0
+    },
+    {
+      "ID": 11,
+      "name": "yeonmaljeongsanso",
+      "item": "연말정산(소)",
+      "pay": 0
+    },
+    {
+      "ID": 12,
+      "name": "yeonmaljeongsanji",
+      "item": "연말정산(지)",
+      "pay": 0
+    },
+    {
+      "ID": 13,
+      "name": "geunsoggongje",
+      "item": "근속공제",
+      "pay": 0
+    },
+    {
+      "ID": 14,
+      "name": "gongjenaeyeog",
+      "item": "공제내역",
+      "pay": 425640
+    }
+  ],
+  "산정근거": [
+    {
+      "ID": 1,
+      "name": "gongjeilsu",
+      "item": "공제일수",
+      "pay": 0
+    },
+    {
+      "ID": 2,
+      "name": "chonggeunlosigansu",
+      "item": "총근로시간수",
+      "pay": 260
+    },
+    {
+      "ID": 3,
+      "name": "yeonjanggeunlosigansu",
+      "item": "연장근로시간수",
+      "pay": 110
+    },
+    {
+      "ID": 4,
+      "name": "yagangeunlosigansu",
+      "item": "야간근로시간수",
+      "pay": 0
+    },
+    {
+      "ID": 5,
+      "name": "hyuilgeunlosigansu",
+      "item": "휴일근로시간수",
+      "pay": 0
+    }
+  ]
+}

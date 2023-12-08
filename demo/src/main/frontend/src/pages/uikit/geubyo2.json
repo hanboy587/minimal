@@ -1,0 +1,60 @@
+{
+    "근로시간": [
+        {
+            "ID": 1,
+            "name": "chonggeunlosigan",
+            "itme":"총근로시간",
+            "time": 211
+        },
+        {
+            "ID": 2,
+            "name": "yeonjanggeunlosigan",
+            "itme":"연장근로시간",
+            "time": 2
+        },
+        {
+            "ID": 3,
+            "name": "hyuilgeunlosigan",
+            "itme":"휴일근로시간",
+            "time": 0
+        },
+        {
+            "ID": 4,
+            "name": "hyuilyeonjanggeunlosigan",
+            "itme":"휴일연장근로시간",
+            "time": 0
+        },
+        {
+            "ID": 5,
+            "name": "yagangeunlosigan",
+            "itme":"야간근로시간",
+            "time": 0
+        }
+    ],
+    "가산율": [
+        {
+            "ID": 1,
+            "name": "yeonjanggasanyul",
+            "itme":"연장가산율",
+            "time": 2
+        },
+        {
+            "ID": 2,
+            "name": "hyuilgasanyul",
+            "itme":"휴일가산율",
+            "time": 1.5
+        },
+        {
+            "ID": 3,
+            "name": "hyuilyeonjanggasanyul",
+            "itme":"휴일연장가산율",
+            "time": 2
+        },
+        {
+            "ID": 4,
+            "name": "yagangasanyul",
+            "itme":"야간가산율",
+            "time": 0.5
+        }
+    ]
+}

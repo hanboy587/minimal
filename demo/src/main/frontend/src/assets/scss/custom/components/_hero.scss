@@ -1,0 +1,26 @@
+// 
+// _hero.scss
+//
+// 보라색 테두리라인 색상밑 크기조정
+.hero-section {
+    position: relative;
+    padding: 80px 0 120px 0;
+
+    &:after {
+        content: ' ';
+        background-image: $hero-bg;
+        position: absolute;
+        top: -400px;
+        right: 0;
+        bottom: -30px; //홈화면 보라색라인 밑으로 내리기
+        z-index: -1;
+        width: 100%;
+        border-radius: 0;
+        transform: skewY(-3deg);
+    }
+
+    // 글자높이
+    .hero-title {
+        line-height: 60px;
+    }
+}

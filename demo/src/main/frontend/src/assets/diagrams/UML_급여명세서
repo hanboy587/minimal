@@ -1,0 +1,22 @@
+@startuml
+title 급여명세서
+
+start
+:급여명세서;
+switch ()
+case (pdf저장버튼)
+    :명세서pdf저장;
+case (메일발송버튼)
+    :pdf메일발송;
+case (날짜선택버튼)
+    if () then (이전)
+    :이전월도명세서;
+    else (다음)
+    :다음월도명세서;
+    endif
+case (연도선택select)
+    :선택연도명세서;
+endswitch
+:해당월도명세서;
+stop
+@enduml

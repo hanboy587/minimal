@@ -1,0 +1,22 @@
+@startuml
+title 근태조회_총무
+
+start
+:근태조회_총무;
+
+switch()
+    case(excel저장)
+        :excel파일로컬저장;
+        end;
+    case()
+        :근태정보grid출력;
+    case(이전월도버튼)
+        :이전월도grid출력;
+    case(다음월도버튼)
+        :다음월도grid출력;
+    case(연도선택select)
+        :해당월도grid출력;
+    endswitch
+    :조회화면;
+    
+@enduml

@@ -1,0 +1,25 @@
+@startuml
+title 팩스;
+
+start
+:팩스;
+
+switch()
+    case()
+        :발송폼;
+        switch()
+            case(번호추가버튼)
+                :번호추가;
+            case(최근발송버튼)
+                :최근발송;
+            case(날짜입력)
+                :예약전송날짜입력;
+        endswitch
+            :발송버튼;
+        end;
+    case()
+       :발송이력출력;
+    endswitch
+    :조회grid;
+
+@enduml

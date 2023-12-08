@@ -1,0 +1,25 @@
+@startuml
+title 전자결재
+
+start
+:전자결재;
+
+switch()
+    case()
+    :근태,휴가...등;
+    switch(승인,반려)
+        case()
+        :근태신청;
+        case()
+        :휴가신청;
+        case()
+        :외출신청;
+        case()
+        :출장신청;
+        case()
+        :추가근무신청;
+    endswitch
+    :승인, 반려 처리 된 결재리스트;
+    case()
+    :모든 결재리스트;
+@enduml
