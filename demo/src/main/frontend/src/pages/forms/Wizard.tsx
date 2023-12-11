@@ -124,7 +124,7 @@ const WizardWithFormValidation = () => {
                                                 <i className="mdi mdi-office-building me-1" style={{ fontSize: "22px" }}></i> 이직사업장(피요청인)
                                             </p>
                                             <p className="mb-0" style={{ fontSize: "16px" }}>명칭<br />
-                                                <input className="form-control" style={{ border: "1px solid #EEEEEE", outline: "none", height: "100%", width: "99%", fontSize: "18px" }} placeholder="나이스노무법인" name="sanghomyeong" value={sanghomyeong}></input>
+                                                <input className="form-control" style={{ border: "1px solid #EEEEEE", outline: "none", height: "100%", width: "99%", fontSize: "18px" }} placeholder="OOO" name="sanghomyeong" value={sanghomyeong}></input>
                                             </p>
                                             <br />
                                             <p className="mb-0" style={{ fontSize: "16px" }}>소재지<br />

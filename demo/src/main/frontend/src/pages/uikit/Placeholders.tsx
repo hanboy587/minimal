@@ -64,7 +64,7 @@ const Companyinformation = () => {
                                     <tr>
                                         <td className="table-madegray" style={{ border: "1px solid #DCDCDC", width: "25%", fontSize: "18px", color: "#a3a7ad" }}>사무대행기관명칭</td>
                                         <td className="text-start" style={{ padding: "0px 15px 0px 15px", fontSize: "18px" }}>
-                                            <input className="form-control" style={{ border: "1px solid #EEEEEE", outline: "none", height: "100%", fontSize: "18px", width: "99%" }} placeholder="나이스노무법인"></input>
+                                            <input className="form-control" style={{ border: "1px solid #EEEEEE", outline: "none", height: "100%", fontSize: "18px", width: "99%" }} placeholder="OOO"></input>
                                         </td>
                                     </tr>
                                     <tr>

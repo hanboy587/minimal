@@ -42,6 +42,7 @@ const ScheduleCalendarTop = React.lazy(() => import('pages/apps/ScheduleCalendar
 
 // - chat
 const ChatApp = React.lazy(() => import('pages/apps/Chat/'));
+const Test = React.lazy(() => import('pages/test/TestApi'));
 
 // -crm
 const CRMDashboard = React.lazy(() => import('pages/apps/CRM/Dashboard'));
@@ -262,7 +263,7 @@ const AllRoutes = () => {
                         { path: 'forget-password2', element: <LoadComponent component={ForgetPassword2} /> },
                         { path: 'lock-screen2', element: <LoadComponent component={LockScreen2} /> },
                         { path: 'logout2', element: <LoadComponent component={Logout2} /> },
-						{ path: 'change-password', element: <LoadComponent component={ChangePassword} /> }
+						{ path: 'change-password', element: <LoadComponent component={ChangePassword} /> },
                     ],
                 },
                 {
@@ -284,6 +285,10 @@ const AllRoutes = () => {
                 {
                     path: 'Seobiseusogae',
                     element: <LoadComponent component={Seobiseusogae} />,
+                },
+                {
+                    path: 'TestApi',
+                    element: <LoadComponent component={Test} />,
                 },
                 {
                     path: 'Samudaehaengjedo',

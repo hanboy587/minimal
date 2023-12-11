@@ -3596,6 +3596,14 @@ Lockfile:
     dependencies:
       "@types/react" "*"
   
+  "@types/react-pdf@^5.7.2":
+    version "5.7.4"
+    resolved "https://registry.npmjs.org/@types/react-pdf/-/react-pdf-5.7.4.tgz"
+    integrity sha512-Im/HY4QhkhYcG+FJoGCy0WoGvdgYcpm+89W1lK5K9KBEQCy1YqTxhmWey5UkdnIPymmEDyeVJXdK0lPjtcvMyA==
+    dependencies:
+      "@types/react" "*"
+      pdfjs-dist "^2.10.377"
+  
   "@types/react-redux@^7.1.20", "@types/react-redux@^7.1.23":
     version "7.1.25"
     resolved "https://registry.npmjs.org/@types/react-redux/-/react-redux-7.1.25.tgz"

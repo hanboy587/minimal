@@ -20,7 +20,7 @@ const FeaturesPc = ({ features }: FeaturesProps) => {
                         </Col>
                         <Col className="py-3 text-center" xl={{ span: 5, offset: 1 }} lg={6}>
                             <p className="mt-3 mb-3" style={{ fontSize: "33px", }}>
-                                간편하고 정확한 인사노무관리, <br /> <strong style={{color: "#5920D7", fontSize:"45px",}}> 나이스노무법인</strong> 과 함께하세요
+                                간편하고 정확한 인사노무관리, <br /> <strong style={{color: "#5920D7", fontSize:"45px",}}> OOO</strong> 과 함께하세요
                             </p>
                             <p style={{ fontSize: "22px" }} className="text-start">
                                 <strong className="text-primary">•</strong> 복잡한 4대보험 신고 물 흐르듯 쉽게 도와드립니다.
@@ -37,7 +37,7 @@ const FeaturesPc = ({ features }: FeaturesProps) => {
                     <Row className="mt-3">
                         <Col className="py-5 mt-2 text-center" xl={{ span: 5, offset: 1 }} lg={6}>
                             <p className="mt-3 mb-3" style={{ fontSize: "33px", }}>
-                                <strong style={{color: "#5920D7", fontSize:"45px",}}> 나이스노무법인</strong> 에서만 <br/> 누릴수있는 혜택
+                                <strong style={{color: "#5920D7", fontSize:"45px",}}> OOO</strong> 에서만 <br/> 누릴수있는 혜택
                             </p>
                             <p style={{ fontSize: "22px" }} className="text-start">
                                 <strong className="text-primary">•</strong> 근태관리 서비스 누구나 무료 이용
@@ -67,7 +67,7 @@ const FeaturesMobile = ({ features }: FeaturesProps) => {
                         </Col>
                         <Col className="py-3 text-center" xl={{ span: 5, offset: 1 }} lg={6}>
                             <p className="mt-3 mb-3" style={{ fontSize: "30px", }}>
-                                간편하고 정확한 인사노무관리, <br /> <strong style={{color: "#5920D7", fontSize:"40px",}}> 나이스노무법인</strong> 과 함께하세요
+                                간편하고 정확한 인사노무관리, <br /> <strong style={{color: "#5920D7", fontSize:"40px",}}> OOO</strong> 과 함께하세요
                             </p>
                             <p style={{ fontSize: "19px" }} className="text-start">
                                 <strong className="text-primary">•</strong> 복잡한 4대보험 신고 물 흐르듯 쉽게 도와드립니다.
@@ -84,7 +84,7 @@ const FeaturesMobile = ({ features }: FeaturesProps) => {
                     <Row className="mt-3">
                         <Col className="py-5 mt-2 text-center" xl={{ span: 5, offset: 1 }} lg={6}>
                             <p className="mt-3 mb-3" style={{ fontSize: "30px", }}>
-                                <strong style={{color: "#5920D7", fontSize:"40px",}}> 나이스노무법인</strong> 에서만 <br/> 누릴수있는 혜택
+                                <strong style={{color: "#5920D7", fontSize:"40px",}}> OOO</strong> 에서만 <br/> 누릴수있는 혜택
                             </p>
                             <p style={{ fontSize: "19px" }} className="text-start px-2">
                                 <strong className="text-primary">•</strong> 근태관리 서비스 누구나 무료 이용
@@ -114,7 +114,7 @@ const FeaturesMobile2 = ({ features }: FeaturesProps) => {
                         </Col>
                         <Col className="py-3 text-center" xl={{ span: 5, offset: 1 }} lg={6}>
                             <p className="mt-3 mb-3" style={{ fontSize: "30px", }}>
-                                간편하고 정확한 인사노무관리, <br /> <strong style={{ color: "#5920D7", fontSize: "40px", }}> 나이스노무법인</strong> 과 함께하세요
+                                간편하고 정확한 인사노무관리, <br /> <strong style={{ color: "#5920D7", fontSize: "40px", }}> OOO</strong> 과 함께하세요
                             </p>
                             <p style={{ fontSize: "19px" }} className="text-center">
                                 <strong className="text-primary">•</strong> 복잡한 4대보험 신고 물 흐르듯 쉽게 도와드립니다.
@@ -131,7 +131,7 @@ const FeaturesMobile2 = ({ features }: FeaturesProps) => {
                     <Row className="mt-3">
                         <Col className="py-5 mt-2 text-center" xl={{ span: 5, offset: 1 }} lg={6}>
                             <p className="mt-3 mb-3" style={{ fontSize: "30px", }}>
-                                <strong style={{color: "#5920D7", fontSize:"40px",}}> 나이스노무법인</strong> 에서만 <br/> 누릴수있는 혜택
+                                <strong style={{color: "#5920D7", fontSize:"40px",}}> OOO</strong> 에서만 <br/> 누릴수있는 혜택
                             </p>
                             <p style={{ fontSize: "19px" }} className="text-center px-2">
                                 <strong className="text-primary">•</strong> 근태관리 서비스 누구나 무료 이용
@@ -161,7 +161,7 @@ const FeaturesMobile3 = ({ features }: FeaturesProps) => {
                         </Col>
                         <Col className="py-3 text-center" xl={{ span: 5, offset: 1 }} lg={6}>
                             <p className="mt-3 mb-3" style={{ fontSize: "27px", }}>
-                                간편하고 정확한<br /> 인사노무관리, <br /> <strong style={{ color: "#5920D7", fontSize: "31px", }}> 나이스노무법인</strong> 과<br /> 함께하세요
+                                간편하고 정확한<br /> 인사노무관리, <br /> <strong style={{ color: "#5920D7", fontSize: "31px", }}> OOO</strong> 과<br /> 함께하세요
                             </p>
                             <p style={{ fontSize: "13px" }} className="text-start px-2">
                                 <strong className="text-primary">•</strong> 복잡한 4대보험 신고 물 흐르듯 쉽게 도와드립니다.
@@ -178,7 +178,7 @@ const FeaturesMobile3 = ({ features }: FeaturesProps) => {
                     <Row className="mt-1">
                         <Col className="py-5  text-center" xl={{ span: 5, offset: 1 }} lg={6}>
                             <p className="mt-3 mb-3" style={{ fontSize: "25px", }}>
-                                <strong style={{color: "#5920D7", fontSize:"30px",}}> 나이스노무법인</strong>  <br/>  에서 누릴수있는 혜택
+                                <strong style={{color: "#5920D7", fontSize:"30px",}}> OOO</strong>  <br/>  에서 누릴수있는 혜택
                             </p>
                             <p style={{ fontSize: "13px" }} className="text-start px-2">
                                 <strong className="text-primary">•</strong> 근태관리 서비스 누구나 무료 이용
