@@ -14,7 +14,7 @@ const HeroPc = () => {
                                 <span className="text-white" style={{ fontSize: "25px" }}>상시직원<strong style={{ color: "#FFDBA7" }}>30인미만</strong> 기업은 <strong style={{ color: "#FFDBA7" }}>4대보험 무료</strong> 관리</span>
                             </div> */}
                             <p className="text-white fw-normal mb-3 mt-2 hero-title" style={{fontSize:"60px",lineHeight:"75px",fontWeight:"bold" }}>
-                                나이스노무법인 <strong style={{fontSize:"40px"}}>과</strong>
+                                OOO <strong style={{fontSize:"40px"}}>과</strong>
                             </p>
                             <p className="text-white fw-normal mb-3  mt-1 hero-title" style={{ fontSize: "50px" }}>
                                 함께하는 <strong style={{ color: "#FFDBA7" }}>전문적</strong> 인
@@ -46,7 +46,7 @@ const HeroMobile = () => {
                                 <span className="text-white" style={{ fontSize: "25px" }}>상시직원<strong style={{ color: "#FFDBA7" }}>30인미만</strong> 기업은 <strong style={{ color: "#FFDBA7" }}>4대보험 무료</strong> 관리</span>
                             </div> */}
                             <p className="text-white fw-normal mb-1 mt-2 hero-title" style={{fontSize:"50px",lineHeight:"75px",fontWeight:"bold" }}>
-                                나이스노무법인 <strong style={{fontSize:"35px"}}>과</strong>
+                                OOO <strong style={{fontSize:"35px"}}>과</strong>
                             </p>
                             <p className="text-white fw-normal mb-0  mt-1 hero-title" style={{ fontSize: "40px" }}>
                                 함께하는 <strong style={{ color: "#FFDBA7" }}>전문적</strong>인
@@ -78,7 +78,7 @@ const HeroMobile2 = () => {
                                 <span className="text-white" style={{ fontSize: "25px" }}>상시직원<strong style={{ color: "#FFDBA7" }}>30인미만</strong> 기업은 <strong style={{ color: "#FFDBA7" }}>4대보험 무료</strong> 관리</span>
                             </div> */}
                             <p className="text-white fw-normal mb-1 mt-2 hero-title" style={{fontSize:"36px",lineHeight:"40px",fontWeight:"bold" }}>
-                                나이스노무법인 <strong style={{fontSize:"25px"}}>과</strong>
+                                OOO <strong style={{fontSize:"25px"}}>과</strong>
                             </p>
                             <p className="text-white fw-normal mb-0  mt-1 hero-title" style={{ fontSize: "35px" }}>
                                 함께하는 <strong style={{ color: "#FFDBA7" }}>전문적</strong>인
@@ -110,7 +110,7 @@ const HeroMobile3 = () => {
                                 <span className="text-white" style={{ fontSize: "25px" }}>상시직원<strong style={{ color: "#FFDBA7" }}>30인미만</strong> 기업은 <strong style={{ color: "#FFDBA7" }}>4대보험 무료</strong> 관리</span>
                             </div> */}
                             <p className="text-white fw-normal mb-1 mt-2 hero-title" style={{fontSize:"45px",lineHeight:"40px",fontWeight:"bold" }}>
-                                나이스노무법인 <strong style={{fontSize:"25px"}}>과</strong>
+                                OOO <strong style={{fontSize:"25px"}}>과</strong>
                             </p>
                             <p className="text-white fw-normal mb-0  mt-1 hero-title" style={{ fontSize: "40px" }}>
                                 함께하는 <strong style={{ color: "#FFDBA7" }}>전문적</strong>인
@@ -142,7 +142,7 @@ const HeroMobile4 = () => {
                                 <span className="text-white" style={{ fontSize: "25px" }}>상시직원<strong style={{ color: "#FFDBA7" }}>30인미만</strong> 기업은 <strong style={{ color: "#FFDBA7" }}>4대보험 무료</strong> 관리</span>
                             </div> */}
                             <p className="text-white fw-normal mb-1 mt-2 hero-title" style={{fontSize:"35px",lineHeight:"40px",fontWeight:"bold" }}>
-                                나이스노무법인 <strong style={{fontSize:"20px"}}>과</strong>
+                                OOO <strong style={{fontSize:"20px"}}>과</strong>
                             </p>
                             <p className="text-white fw-normal mb-0  mt-1 hero-title" style={{ fontSize: "30px" }}>
                                 함께하는 <strong style={{ color: "#FFDBA7" }}>전문적</strong>인

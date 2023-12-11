@@ -540,7 +540,7 @@ const Basic = () => {
                                                 <td className="table-madegray" style={{ border: "1px solid #DCDCDC", width: "20%", fontSize: "18px", color: "#a3a7ad" }}>상호명</td>
                                                 {state ?
                                                     <td className="text-start" style={{ padding: "0px 15px 0px 15px" }}>
-                                                        <input className="form-control" style={{ border: "1px solid #EEEEEE", outline: "none", height: "100%", fontSize: "18px", width: "99%" }} name='sanghomyeong' onChange={onChange} value={sanghomyeong} placeholder="나이스노무법인"></input>
+                                                        <input className="form-control" style={{ border: "1px solid #EEEEEE", outline: "none", height: "100%", fontSize: "18px", width: "99%" }} name='sanghomyeong' onChange={onChange} value={sanghomyeong} placeholder="OOO"></input>
                                                     </td>
                                                     :
                                                     <td className="text-start" style={{ padding: "0px 15px 0px 15px" }}>
@@ -829,7 +829,7 @@ const Basic = () => {
                                                         <td className="table-madegray" style={{ border: "1px solid #DCDCDC", fontSize: "18px", color: "#a3a7ad" }}>보험사무대행기관</td>
                                                         {state ?
                                                             <td className="text-start" style={{ padding: "0px 15px 0px 15px" }}>
-                                                                <input className="form-control" style={{ border: "1px solid #EEEEEE", outline: "none", height: "100%", fontSize: "18px", width: "99%" }} name='daehaenggigwan' onChange={onChange} value={daehaenggigwan} placeholder="나이스노무법인"></input>
+                                                                <input className="form-control" style={{ border: "1px solid #EEEEEE", outline: "none", height: "100%", fontSize: "18px", width: "99%" }} name='daehaenggigwan' onChange={onChange} value={daehaenggigwan} placeholder="OOO"></input>
                                                             </td>
                                                             :
                                                             <td className="text-start" style={{ padding: "0px 15px 0px 15px" }}>
@@ -871,7 +871,7 @@ const Basic = () => {
                                     <td className="table-madegray" style={{ padding: "5px", border: "1px solid #DCDCDC", width: "25%", fontSize: "13px", color: "#a3a7ad" }}>상호명</td>
                                     {state ?
                                         <td className="text-start" style={{ padding: "0px 0px 0px 15px" }}>
-                                            <input className="form-control mt-1 mb-1" style={{ border: "1px solid #EEEEEE", outline: "none", height: "100%", fontSize: "12px", width: "99%", }} name='sanghomyeong' onChange={onChange} value={sanghomyeong} placeholder="나이스노무법인" ></input>
+                                            <input className="form-control mt-1 mb-1" style={{ border: "1px solid #EEEEEE", outline: "none", height: "100%", fontSize: "12px", width: "99%", }} name='sanghomyeong' onChange={onChange} value={sanghomyeong} placeholder="OOO" ></input>
                                         </td>
                                         :
                                         <td className="text-start" style={{ padding: "0px 0px 0px 15px" }}>
@@ -1175,7 +1175,7 @@ const Basic = () => {
                                     <td className="table-madegray" style={{ padding: "5px", border: "1px solid #DCDCDC", fontSize: "13px", color: "#a3a7ad" }}>보험사무 <br />대행기관</td>
                                     {state ?
                                         <td className="text-start" style={{ padding: "0px 0px 0px 15px" }}>
-                                            <input className="form-control mt-1 mb-1" style={{ border: "1px solid #EEEEEE", outline: "none", height: "100%", fontSize: "12px", width: "99%" }} name='daehaenggigwan' onChange={onChange} value={daehaenggigwan} placeholder="나이스노무법인"></input>
+                                            <input className="form-control mt-1 mb-1" style={{ border: "1px solid #EEEEEE", outline: "none", height: "100%", fontSize: "12px", width: "99%" }} name='daehaenggigwan' onChange={onChange} value={daehaenggigwan} placeholder="OOO"></input>
                                         </td>
                                         :
                                         <td className="text-start" style={{ padding: "0px 0px 0px 15px" }}>

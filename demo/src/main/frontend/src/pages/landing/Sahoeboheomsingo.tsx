@@ -29,7 +29,7 @@ const SahoeboheomsingoPc = () => {
                                         보험사무대행 인가기관
                                     </p>
                                     <p style={{ fontSize:"22px" }}>
-                                        <strong>나이스노무법인</strong>은<br />
+                                        <strong>OOO</strong>은<br />
                                         ⌜고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률⌟ 에 따라,
                                         근로복지공단·건강보험공단·국민연금공단에서
                                         4대보험사무대행기관으로 인가 받아 사업주의 보험사무 행정처리 부담을 덜어주고자
@@ -113,7 +113,7 @@ const SahoeboheomsingoMobile = () => {
                                         보험사무대행 인가기관
                                     </p>
                                     <p style={{ fontSize:"20px" }}>
-                                        <strong>나이스노무법인</strong>은<br />
+                                        <strong>OOO</strong>은<br />
                                         ⌜고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률⌟ 에 따라,
                                         근로복지공단·건강보험공단·국민연금공단에서
                                         4대보험사무대행기관으로 인가 받아 사업주의 보험사무 행정처리 부담을 덜어주고자

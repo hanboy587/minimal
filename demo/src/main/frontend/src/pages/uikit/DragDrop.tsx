@@ -63,7 +63,7 @@ const YeongseyulgyesanseoM = () => {
                                                                 </div>
                                                                 <div className="col ps-0">
                                                                     <p className="text-info fw-bold mb-0">
-                                                                        나이스(나이스 노무법인)00224547
+                                                                        나이스(OOO)00224547
                                                                     </p>
                                                                     <p className="mb-0">금융결제원(전자세금용)</p>
                                                                     <p className="mb-0">2022.12.30 완료</p>

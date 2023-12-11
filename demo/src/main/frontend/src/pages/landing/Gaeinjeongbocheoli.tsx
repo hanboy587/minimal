@@ -24,7 +24,7 @@ const Stocks = () => {
                         <td>서비스가입일, 해지일 또는 제공 계약 종료일 중 먼저 도래하는 시점</td>
                     </tr>
                     <tr>
-                        <td>나이스노무법인</td>
+                        <td>OOO</td>
                         <td>등록인 이름, 관리책임자 이름, 전화번호, 이메일, 주소</td>
                         <td>메일 서비스 이용 시 회사 도메인 등록 기능 제공을 위한 최소정보</td>
                         <td>서비스 사용기간</td>
@@ -105,7 +105,7 @@ const Gaeinjeongbocheoli = () => {
                             <div className="clearfix">
                                 <div className="float-start mb-3 text-black">
                                     <p style={{ fontSize: "40px", fontWeight: "bolder" }}>
-                                        나이스 노무법인 개인정보처리방침
+                                        OOO 개인정보처리방침
                                     </p>
                                 </div>
                             </div>
@@ -113,7 +113,7 @@ const Gaeinjeongbocheoli = () => {
                                 <Col>
                                     <div className="float-start  text-black">
                                         <p style={{ fontSize: "20px" }}>
-                                            주식회사 나이스노무법인(이하 “회사”)은 개인정보보호법에 따라 정보주체의 개인정보 및 권익을 보호하고
+                                            주식회사 OOO(이하 “회사”)은 개인정보보호법에 따라 정보주체의 개인정보 및 권익을 보호하고
                                             개인정보와 관련한 정보주체의 고충을 원활하게 처리할 수 있도록 다음과 같은 처리방침을 두고 있습니다.
                                             본 개인정보처리방침은 회사가 제공하는 ‘나이스’ 서비스(이하 “서비스”) 이용에 적용됩니다.
                                         </p>

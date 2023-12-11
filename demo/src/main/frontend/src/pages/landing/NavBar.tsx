@@ -11,7 +11,7 @@ const NavBar = () => {
         <Navbar collapseOnSelect expand="lg"  className="py-lg-3">
             <Container>
                 <Navbar.Brand href="/" className="me-lg-5">
-                    <img src={logo} alt="" className="logo-dark" height="18" />
+                    {/* <img src={logo} alt="" className="logo-dark" height="18" /> */}
                 </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"  style={{color:"#C6C6C6",fontWeight:"bolder", outline: "none" }}>
@@ -35,6 +35,7 @@ const NavBar = () => {
                                     <Dropdown.Item as={Link} to="/Sahoeboheomsingo">사회보험신고</Dropdown.Item>
                                     <Dropdown.Item as={Link} to="#">근태관리(오픈예정)</Dropdown.Item>
                                     <Dropdown.Item as={Link} to="#">급여관리(오픈예정)</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/TestApi">백엔드 연동 확인</Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
                         </Nav.Item>

@@ -5,7 +5,7 @@ import notFoundImg from 'assets/images/file-searching.svg';
 
 const ErrorPageNotFoundAlt = () => {
     // 채널톡링크
-    const url = "https://nice.channel.io/lounge"
+    const url = "https://naver.com"
     return (
         <>
             <div className="account-pages pt-2 pt-sm-5 pb-4 pb-sm-5 mt-3">

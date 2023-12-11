@@ -641,7 +641,7 @@ const Ilbangyesanseo = () => {
                                                         onChange={handleInputChange}
                                                         type="text"
                                                         style={{ border: "1px solid #EEEEEE", outline: "none", width: "99%" }}
-                                                        placeholder="나이스노무법인">
+                                                        placeholder="OOO">
                                                     </input>
                                                 </td>
                                                 <td className="table-danger" style={{ width: "8%", padding: "5px" }}>성명(대표자)</td>
