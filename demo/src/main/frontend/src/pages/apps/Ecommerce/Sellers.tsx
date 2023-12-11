@@ -84,7 +84,7 @@ const columns: ReadonlyArray<Column> = [
         Header: 'Seller',
         accessor: 'name',
         defaultCanSort: true,
-        // Cell: NameColumn,
+        Cell: NameColumn,
     },
     {
         Header: 'Store Name',
@@ -109,7 +109,7 @@ const columns: ReadonlyArray<Column> = [
     {
         Header: 'Revenue',
         accessor: 'revenue',
-        // Cell: RevenueColumn,
+        Cell: RevenueColumn,
         defaultCanSort: false,
     },
     {

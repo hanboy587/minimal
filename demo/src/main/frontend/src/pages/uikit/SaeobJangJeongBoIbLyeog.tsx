@@ -5,7 +5,7 @@ import { PageTitle, FormInput } from 'components';
 import { useToggle } from 'hooks';
 import React, { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
-import { pdfjs } from 'react-pdf';
+// import { pdfjs } from 'react-pdf';
 import { number } from 'yup/lib/locale';
 import { Document, Page } from 'react-pdf';
 import DaumPostcode from "react-daum-postcode";
@@ -14,7 +14,7 @@ import { GrCircleQuestion } from "react-icons/gr";
 import { useMediaQuery } from "react-responsive";
 
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/legacy/build/pdf.worker.min.js`;
+// pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/legacy/build/pdf.worker.min.js`;
 
 type SaeobJangJeongBoIbLyeogType = {
     sanghomyeong: string;

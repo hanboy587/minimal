@@ -92,19 +92,19 @@ const columns: ReadonlyArray<Column> = [
         Header: 'Order ID',
         accessor: 'order_id',
         defaultCanSort: true,
-        // Cell: OrderColumn,
+        Cell: OrderColumn,
     },
     {
         Header: 'Date',
         accessor: 'order_date',
         defaultCanSort: false,
-        // Cell: OrderDateColumn,
+        Cell: OrderDateColumn,
     },
     {
         Header: 'Payment Status',
         accessor: 'payment_status',
         defaultCanSort: false,
-        // Cell: PaymentStatusColumn,
+        Cell: PaymentStatusColumn,
     },
     {
         Header: 'Total',
@@ -120,13 +120,13 @@ const columns: ReadonlyArray<Column> = [
         Header: 'Status',
         accessor: 'order_status',
         defaultCanSort: false,
-        // Cell: StatusColumn,
+        Cell: StatusColumn,
     },
     {
         Header: 'Action',
         accessor: 'action',
         defaultCanSort: false,
-        // Cell: ActionColumn,
+        Cell: ActionColumn,
     },
 ];
 

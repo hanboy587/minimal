@@ -27,6 +27,7 @@ const EmailsList = ({ emails }: { emails: Email[] }) => {
 
     return (
         <ul className="email-list">
+            {emailTestList()}
             {emails.map((email, index) => {
                 return (
                     <li className={classNames({ unread: !email.is_read })} key={index.toString()}>

@@ -1,6 +1,6 @@
 import { Modal, Row, Col, Button } from 'react-bootstrap';
 import { DateClickArg } from '@fullcalendar/interaction';
-import { EventInput } from '@fullcalendar/core/index.js';
+import { EventInput } from '@fullcalendar/react';
 import { FormInput } from 'components';
 import { Event } from './types';
 import { useAddEditEvent, useCalendar } from './hooks';
@@ -78,7 +78,7 @@ const AddEditEvent = ({
         });
     }, [extensionDate]);
 
-    const onChange = useCallback((e: { target: { name: any; value: any; }; }) => {
+    const onChange = useCallback(e => {
         const { name, value } = e.target;
         setInputs(prev => ({
             ...prev,
@@ -726,7 +726,7 @@ const AddEditEvent = ({
         );
     };
 
-    const Comment = useCallback((props: any) => {
+    const Comment = useCallback((props) => {
         const { comment } = props;
         return (
             <FormInput
@@ -745,7 +745,7 @@ const AddEditEvent = ({
         );
     }, [comment]);
 
-    const MoneyRadio = useCallback((props: any) => {
+    const MoneyRadio = useCallback((props) => {
         const { money } = props;
         return (
             <div className='mb-3'>

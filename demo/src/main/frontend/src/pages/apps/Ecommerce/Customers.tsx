@@ -75,7 +75,7 @@ const columns: ReadonlyArray<Column> = [
         Header: '명세서보기',
         accessor: 'action',
         defaultCanSort: false,
-        // Cell: ActionColumn,
+        Cell: ActionColumn,
     },
 
 ];
@@ -105,7 +105,7 @@ const columns2: ReadonlyArray<Column> = [
         Header: '명세서보기',
         accessor: 'action',
         defaultCanSort: false,
-        // Cell: ActionColumn2,
+        Cell: ActionColumn2,
     },
 
 ];

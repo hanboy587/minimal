@@ -26,7 +26,7 @@ const RightSideBar = () => {
      * Handle the click anywhere in doc
      */
     const handleOtherClick = useCallback(
-        (e: any) => {
+        (e) => {
             if (showRightSidebar) {
                 if (rightBarNodeRef && rightBarNodeRef.current && rightBarNodeRef.current.contains(e.target)) {
                     return;
@@ -55,7 +55,7 @@ const RightSideBar = () => {
                     <h5 className="m-0">Settings</h5>
                 </div>
 
-                <SimpleBar style={{ maxHeight: '100%', zIndex: 10000 }} scrollbarMaxSize={320}>
+                <SimpleBar style={{ maxHeight: '100%', zIndex: 10000 }} timeout={500} scrollbarMaxSize={320}>
                     <div className="rightbar-content h-100">
                         {' '}
                         <ThemeCustomizer />

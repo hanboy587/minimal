@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
-import { EventInput } from '@fullcalendar/core';
+import { EventInput } from '@fullcalendar/react';
 import { Event } from '../types';
 
 export default function useAddEditEvent(
@@ -30,7 +30,7 @@ export default function useAddEditEvent(
     /*
      * form methods
      */
-    const methods = useForm({ defaultValues: event});
+    const methods = useForm({ defaultValues: event, resolver: schemaResolver });
     const {
         handleSubmit,
         register,

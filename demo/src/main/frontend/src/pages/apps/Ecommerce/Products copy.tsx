@@ -75,7 +75,7 @@ const columns: ReadonlyArray<Column> = [
         Header: 'Product',
         accessor: 'name',
         defaultCanSort: true,
-        // Cell: ProductColumn,
+        Cell: ProductColumn,
     },
     {
         Header: 'Category',
@@ -101,13 +101,13 @@ const columns: ReadonlyArray<Column> = [
         Header: 'Status',
         accessor: 'status',
         defaultCanSort: true,
-        // Cell: StatusColumn,
+        Cell: StatusColumn,
     },
     {
         Header: 'Action',
         accessor: 'action',
         defaultCanSort: false,
-        // Cell: ActionColumn,
+        Cell: ActionColumn,
     },
 ];
 

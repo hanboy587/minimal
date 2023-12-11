@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { DateClickArg, Draggable, DropArg } from '@fullcalendar/interaction';
-import { DateInput, EventClickArg, EventDropArg, EventInput } from '@fullcalendar/core';
+import { DateInput, EventClickArg, EventDropArg, EventInput } from '@fullcalendar/react';
 import { useToggle } from 'hooks';
 import { Event } from '../types';
 import { defaultEvents } from '../data';

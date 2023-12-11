@@ -186,7 +186,7 @@ const FileUploader3 = ({ showPreview = true, onFileUpload }: FileUploaderProps) 
     
     return (
         <>
-            <Dropzone onDrop={(acceptedFiles) => handleAcceptedFiles(acceptedFiles, onFileUpload)}>
+            <Dropzone onDrop={(acceptedFiles) => handleAcceptedFiles(acceptedFiles, onFileUpload)} accept={fileExtension}>
                 {({ getRootProps, getInputProps }) => (
                     <div className="dropzone" style={{height:'5px'}} >
                         <div className="dz-message needsclick" {...getRootProps()}>

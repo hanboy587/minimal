@@ -1,4 +1,4 @@
-import { MENU_ITEMS, MENU_ITEMS_All, MenuItemType } from 'appConstants';
+import { MENU_ITEMS, MENU_ITEMS_test, MENU_ITEMS_test_test, MENU_ITEMS_All, MenuItemType } from 'appConstants';
 import axios from 'axios';
 import { getUsername } from 'utils/getUsername';
 import { AUTH, ROLE_WORKER, ROLE_USER, ROLE_ADMIN } from '../utils/Auth';
@@ -103,6 +103,22 @@ const getMenuItems = () => {
             });
         }
 
+        else if (GetLocation().includes('Geubyeomyeongseseo')) {
+            return MENU_ITEMS_test.filter((data) => {
+                if (data && data.role && data.role <= AUTH[role]) {
+                    return data;
+                }
+                return null;
+            })
+        }
+        else if (GetLocation().includes('chwideugsingo')) {
+            return MENU_ITEMS_test_test.filter((data) => {
+                if (data && data.role && data.role <= AUTH[role]) {
+                    return data;
+                }
+                return null;
+            })
+        }
     }
     return MENU_ITEMS_All.filter((data) => {
         if (data.label == "근태현황_총무" && getUsername() == specialUsername && getUsername() == specialUsername2) {

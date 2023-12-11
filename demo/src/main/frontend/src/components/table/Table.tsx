@@ -224,7 +224,7 @@ const Table = <TableValues extends object = {}>(props: TableProps<TableValues>) 
                         ))}
                     </thead>
                     <tbody {...dataTable.getTableBodyProps()}>
-                        {(rows || []).map((row: Row<{}>, i: any) => {
+                        {(rows || []).map((row, i) => {
                             dataTable.prepareRow(row);
                             return (
                                 <tr {...row.getRowProps()}>

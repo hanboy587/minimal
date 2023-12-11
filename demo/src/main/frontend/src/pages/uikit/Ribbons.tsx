@@ -11,7 +11,7 @@ import axios from 'axios';
 import moment from 'moment';
 import { getUsername } from 'utils/getUsername';
 import { getRealname } from 'utils/getRealname';
-import { jwtDecode } from 'jwt-decode';
+import jwtDecode from 'jwt-decode';
 
 const HRmain = () => {
 

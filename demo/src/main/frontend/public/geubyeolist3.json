@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "employee": {
+      "id": 1,
+      "company": {
+        "id": 1
+      }
+    },
+    "geubYeoDaeJang": {
+      "id": 1,
+      "company": {
+        "id": 1
+      },
+      "yearMonth": "2022-12"
+    },
+    "confirmed": true,
+    "useFlag": true,
+    "jiGeubHapGae": 2190000,
+    "gongJaeHapGae": 83800,
+    "silSooRyeongAek": 2106200,
+    "worktime": {
+      "id": 1,
+      "employee": {
+        "id": 1,
+        "company": {
+          "id": 1
+        }
+      },
+      "starDate": "2022-12-01",
+      "endDate": "2022-12-31",
+      "giBon": 200,
+      "yeonJang": 12,
+      "hyuIl": 15,
+      "hyuIlYeonJang": 3,
+      "yaGan": 9,
+      "juHyu": 32,
+      "gyeolGeun": 0
+    },
+    "jiGeubList": [
+      {
+        "id": null,
+        "suDang": {
+          "id": 1,
+          "company": {
+            "id": 1
+          },
+          "name": "sudang1",
+          "useflag": true,
+          "taxation": true
+        },
+        "pay": 1400000
+      },
+      {
+        "id": null,
+        "suDang": {
+          "id": 2,
+          "company": {
+            "id": 1
+          },
+          "name": "sudang2",
+          "useflag": true,
+          "taxation": true
+        },
+        "pay": 790000
+      }
+    ],
+    "gongJaeList": [
+      {
+        "id": null,
+        "gongJae": {
+          "id": 1,
+          "company": {
+            "id": 1
+          },
+          "name": "gongjae1",
+          "useflag": true,
+          "gongJaeType": "BEFORE"
+        },
+        "pay": 8900
+      },
+      {
+        "id": null,
+        "gongJae": {
+          "id": 2,
+          "company": {
+            "id": 1
+          },
+          "name": "gongjae2",
+          "useflag": true,
+          "gongJaeType": "AFTER"
+        },
+        "pay": 74900
+      }
+    ],
+    "gaSanRate": {
+      "id": null,
+      "company": {
+        "id": 1
+      },
+      "employee": null,
+      "yeonJang": 1.5,
+      "hyuIl": 1.5,
+      "hyuIlYeonJang": 2,
+      "yaGan": 0.5
+    }
+  }
+]

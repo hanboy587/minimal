@@ -52,7 +52,7 @@ const ForgetPassword = () => {
             )}
 
             {!passwordReset && (
-                <VerticalForm<UserData> onSubmit={onSubmit}>
+                <VerticalForm<UserData> onSubmit={onSubmit} resolver={schemaResolver}>
                     <Row style={{ paddingLeft: "10px" }}>
                         <p className="mb-0" style={{ paddingLeft: "0px", color: "#a3a3a3" }}>아이디</p>
                         <input className="form-control"

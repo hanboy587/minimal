@@ -1,5 +1,5 @@
 import { Modal, Row, Col, Button } from 'react-bootstrap';
-import { EventInput } from '@fullcalendar/core/index.js';
+import { EventInput } from '@fullcalendar/react';
 import { FormInput } from 'components';
 import { Event } from './types';
 import { useAddEditEvent } from './hooks';

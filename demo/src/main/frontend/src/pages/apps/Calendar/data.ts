@@ -1,4 +1,4 @@
-import { EventInput } from '@fullcalendar/core';
+import { EventInput } from '@fullcalendar/react';
 
 const defaultEvents: EventInput[] = [
     // 달력안에 았는 임시데이터들

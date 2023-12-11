@@ -88,7 +88,7 @@ const LeftSidebar = ({ isCondensed, isLight, hideLogo, hideUserProfile }: LeftSi
             )}
 
             {!isCondensed && (
-                <SimpleBar style={{ maxHeight: '100%' }} scrollbarMaxSize={320}>
+                <SimpleBar style={{ maxHeight: '100%' }} timeout={500} scrollbarMaxSize={320}>
                     <SideBarContent hideUserProfile={hideUserProfile} />
                 </SimpleBar>
             )}

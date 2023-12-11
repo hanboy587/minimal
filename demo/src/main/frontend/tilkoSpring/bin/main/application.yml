@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    sql-script-encoding: UTF-8
+    url: jdbc:sqlserver://srv.rba.kr:1433;databaseName=sss
+    username: sa
+    password: Nicenomu.com$#@!
+  servlet:
+    multipart:
+      max-file-size: 100000MB
+      max-request-size: 100000MB
+#  devtools:
+#    restart:
+#      enabled: true
+  jpa:
+    generate-ddl: true
+    hibernate:
+      #ddl-auto: create #조심해서 사용할것 
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        use_nationalized_character_data: true
+        show_sql: true
+        format_sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+server:
+  tomcat:
+    max-swallow-size: 10000000MB
+    max-swallow-post-size: 10000000MB

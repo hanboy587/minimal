@@ -1,11 +1,10 @@
-import FullCalendar from '@fullcalendar/react';
-import { EventClickArg, EventDropArg } from '@fullcalendar/core'
+import FullCalendar, { EventClickArg, EventDropArg, render } from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import interactionPlugin, { DateClickArg, DropArg } from '@fullcalendar/interaction';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import listPlugin from '@fullcalendar/list';
 import BootstrapTheme from '@fullcalendar/bootstrap';
-import { EventInput } from '@fullcalendar/core/index.js';
+import { EventInput } from '@fullcalendar/core';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 

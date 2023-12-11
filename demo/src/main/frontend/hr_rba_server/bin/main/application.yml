@@ -1,0 +1,27 @@
+server:
+  port: 5000
+spring:
+  security:
+    basic:
+      enabled: false
+  datasource:
+    sql-script-encoding: UTF-8
+    url: jdbc:sqlserver://localhost:1433;databaseName=sss;encrypt=true;trustServerCertificate=true
+    username: sa
+    password: MyPass@word
+  devtools:
+    restart:
+      enabled: true
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create #조심해서 사용할것
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        use_nationalized_character_data: true
+        show_sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher

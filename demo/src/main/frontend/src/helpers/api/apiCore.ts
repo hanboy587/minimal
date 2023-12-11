@@ -1,7 +1,7 @@
-import { jwtDecode } from 'jwt-decode';
+import jwtDecode from 'jwt-decode';
 import axios from 'axios';
 import config from '../../config';
-// import {BiError} from "react-icons/all";
+import {BiError} from "react-icons/all";
 
 
 // content type

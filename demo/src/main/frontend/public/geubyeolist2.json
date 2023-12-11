@@ -1,0 +1,835 @@
+{
+"a": [
+    {
+        "jigeob": [
+            {
+                "ID": 1,
+                "woldo": "08",
+                "name": "jigeubhabgye",
+                "item": "지급합계",
+                "pay": 4251640
+            },
+            {
+                "ID": 2,
+                "woldo": "08",
+                "name": "juhyusudang",
+                "item": "주휴수당",
+                "pay": 0
+            },
+            {
+                "ID": 3,
+                "name": "yeonjangsudang",
+                "item": "연장수당",
+                "pay": 200000
+            },
+            {
+                "ID": 4,
+                "woldo": "08",
+                "name": "yagansudang",
+                "item": "야간수당",
+                "pay": 34000
+            },
+            {
+                "ID": 5,
+                "woldo": "08",
+                "name": "yeonchasudang",
+                "item": "연차수당",
+                "pay": 0
+            },
+            {
+                "ID": 6,
+                "woldo": "08",
+                "name": "hyuilsudang",
+                "item": "휴일수당",
+                "pay": 0
+            },
+            {
+                "ID": 7,
+                "woldo": "08",
+                "name": "hyueobsudang",
+                "item": "휴업수당",
+                "pay": 0
+            },
+            {
+                "ID": 8,
+                "woldo": "08",
+                "name": "sigdae",
+                "item": "식대",
+                "pay": 100000
+            },
+            {
+                "ID": 9,
+                "woldo": "08",
+                "name": "boyugsudang",
+                "item": "보육수당",
+                "pay": 100000
+            },
+            {
+                "ID": 10,
+                "woldo": "08",
+                "name": "unjeonbojogeum",
+                "item": "운전보조금",
+                "pay": 10000
+            },
+            {
+                "ID": 11,
+                "woldo": "08",
+                "name": "myeongjeolsudang",
+                "item": "명절수당",
+                "pay": 0
+            },
+            {
+                "ID": 12,
+                "woldo": "08",
+                "name": "Decwolchaaeg",
+                "item": "12월차액",
+                "pay": 0
+            },
+            {
+                "ID": 13,
+                "woldo": "08",
+                "name": "sangyeo",
+                "item": "상여",
+                "pay": 0
+            },
+            {
+                "ID": 14,
+                "woldo": "08",
+                "name": "basic",
+                "item": "기본급여",
+                "pay": 2500000
+            },
+            {
+                "ID": 15,
+                "woldo": "08",
+                "name": "silsulyeongaeg",
+                "item": "실수령액",
+                "pay": 3735220
+            }
+        ],
+        "공제항목": [
+            {
+                "ID": 1,
+                "woldo": "08",
+                "name": "geunsoggongjejigeub",
+                "item": "근속공제",
+                "pay": 0
+            },
+            {
+                "ID": 2,
+                "woldo": "08",
+                "name": "gugminyeongeum",
+                "item": "국민연금",
+                "pay": 100000
+            },
+            {
+                "ID": 3,
+                "woldo": "08",
+                "name": "geongangboheom",
+                "item": "건강보험",
+                "pay": 40000
+            },
+            {
+                "ID": 4,
+                "woldo": "08",
+                "name": "goyongboheom",
+                "item": "고용보험",
+                "pay": 24000
+            },
+            {
+                "ID": 5,
+                "woldo": "08",
+                "name": "janggiyoyangboheom",
+                "item": "장기요양보험",
+                "pay": 2500
+            },
+            {
+                "ID": 6,
+                "woldo": "08",
+                "name": "sodeugse",
+                "item": "소득세",
+                "pay": 12500
+            },
+            {
+                "ID": 7,
+                "woldo": "08",
+                "name": "jibangsodeugse",
+                "item": "지방소득세",
+                "pay": 9500
+            },
+            {
+                "ID": 8,
+                "woldo": "08",
+                "name": "saeobsodeugse",
+                "item": "사업소득세",
+                "pay": 0
+            },
+            {
+                "ID": 9,
+                "woldo": "08",
+                "name": "jepumnaesu",
+                "item": "제품내수",
+                "pay": 0
+            },
+            {
+                "ID": 10,
+                "woldo": "08",
+                "name": "byeongga",
+                "item": "병가",
+                "pay": 0
+            },
+            {
+                "ID": 11,
+                "woldo": "08",
+                "name": "yeonmaljeongsanso",
+                "item": "연말정산(소)",
+                "pay": 0
+            },
+            {
+                "ID": 12,
+                "woldo": "08",
+                "name": "yeonmaljeongsanji",
+                "item": "연말정산(지)",
+                "pay": 0
+            },
+            {
+                "ID": 13,
+                "woldo": "08",
+                "name": "geunsoggongje",
+                "item": "근속공제",
+                "pay": 0
+            },
+            {
+                "ID": 14,
+                "woldo": "08",
+                "name": "gongjenaeyeog",
+                "item": "공제내역",
+                "pay": 425640
+            }
+        ],
+        "산정근거": [
+            {
+                "ID": 1,
+                "woldo": "08",
+                "name": "gongjeilsu",
+                "item": "공제일수",
+                "pay": 0
+            },
+            {
+                "ID": 2,
+                "woldo": "08",
+                "name": "chonggeunlosigansu",
+                "item": "총근로시간수",
+                "pay": 260
+            },
+            {
+                "ID": 3,
+                "woldo": "08",
+                "name": "yeonjanggeunlosigansu",
+                "item": "연장근로시간수",
+                "pay": 110
+            },
+            {
+                "ID": 4,
+                "woldo": "08",
+                "name": "yagangeunlosigansu",
+                "item": "야간근로시간수",
+                "pay": 0
+            },
+            {
+                "ID": 5,
+                "woldo": "08",
+                "name": "hyuilgeunlosigansu",
+                "item": "휴일근로시간수",
+                "pay": 0
+            }
+        ],
+        "산출식": [
+            {
+                "ID": 1,
+                "woldo": "08",
+                "name": "yeonjanggasanyul",
+                "item": "연장가산율",
+                "pay": 1
+            },
+            {
+                "ID": 2,
+                "woldo": "08",
+                "name": "hyuilgasanyul",
+                "item": "휴일가산율",
+                "pay": 1.5
+            },
+            {
+                "ID": 3,
+                "woldo": "08",
+                "name": "hyuilyeonjanggasanyul",
+                "item": "휴일연장가산율",
+                "pay": 2
+            },
+            {
+                "ID": 4,
+                "woldo": "08",
+                "name": "yagangasanyul",
+                "item": "야간가산율",
+                "pay": 3
+            }
+        ]
+    }
+],
+"b": [
+    {
+        "jigeob": [
+            
+            {
+                "ID": 1,
+                "woldo": "09",
+                "name": "basic",
+                "item": "기본급여",
+                "pay": 3000000
+            },
+            {
+                "ID": 2,
+                "woldo": "09",
+                "name": "juhyusudang",
+                "item": "주휴수당",
+                "pay": 0
+            },
+            {
+                "ID": 3,
+                "name": "yeonjangsudang",
+                "item": "연장수당",
+                "pay": 100000
+            },
+            {
+                "ID": 4,
+                "woldo": "09",
+                "name": "yagansudang",
+                "item": "야간수당",
+                "pay": 64000
+            },
+            {
+                "ID": 5,
+                "woldo": "09",
+                "name": "yeonchasudang",
+                "item": "연차수당",
+                "pay": 32000
+            },
+            {
+                "ID": 6,
+                "woldo": "09",
+                "name": "hyuilsudang",
+                "item": "휴일수당",
+                "pay": 0
+            },
+            {
+                "ID": 7,
+                "woldo": "09",
+                "name": "hyueobsudang",
+                "item": "휴업수당",
+                "pay": 0
+            },
+            {
+                "ID": 8,
+                "woldo": "09",
+                "name": "sigdae",
+                "item": "식대",
+                "pay": 200000
+            },
+            {
+                "ID": 9,
+                "woldo": "09",
+                "name": "boyugsudang",
+                "item": "보육수당",
+                "pay": 0
+            },
+            {
+                "ID": 10,
+                "woldo": "09",
+                "name": "unjeonbojogeum",
+                "item": "운전보조금",
+                "pay": 10000
+            },
+            {
+                "ID": 11,
+                "woldo": "09",
+                "name": "myeongjeolsudang",
+                "item": "명절수당",
+                "pay": 0
+            },
+            {
+                "ID": 12,
+                "woldo": "09",
+                "name": "Decwolchaaeg",
+                "item": "12월차액",
+                "pay": 0
+            },
+            {
+                "ID": 13,
+                "woldo": "09",
+                "name": "sangyeo",
+                "item": "상여",
+                "pay": 0
+            },
+            {
+                "ID": 14,
+                "woldo": "09",
+                "name": "jigeubhabgye",
+                "item": "지급합계",
+                "pay": 3228640
+            },
+            {
+                "ID": 15,
+                "woldo": "09",
+                "name": "silsulyeongaeg",
+                "item": "실수령액",
+                "pay": 2735220
+            }
+        ],
+        "공제항목": [
+            {
+                "ID": 1,
+                "woldo": "09",
+                "name": "geunsoggongjejigeub",
+                "item": "근속공제",
+                "pay": 0
+            },
+            {
+                "ID": 2,
+                "woldo": "09",
+                "name": "gugminyeongeum",
+                "item": "국민연금",
+                "pay": 150000
+            },
+            {
+                "ID": 3,
+                "woldo": "09",
+                "name": "geongangboheom",
+                "item": "건강보험",
+                "pay": 20000
+            },
+            {
+                "ID": 4,
+                "woldo": "09",
+                "name": "goyongboheom",
+                "item": "고용보험",
+                "pay": 24000
+            },
+            {
+                "ID": 5,
+                "woldo": "09",
+                "name": "janggiyoyangboheom",
+                "item": "장기요양보험",
+                "pay": 1500
+            },
+            {
+                "ID": 6,
+                "woldo": "09",
+                "name": "sodeugse",
+                "item": "소득세",
+                "pay": 1500
+            },
+            {
+                "ID": 7,
+                "woldo": "09",
+                "name": "jibangsodeugse",
+                "item": "지방소득세",
+                "pay": 2500
+            },
+            {
+                "ID": 8,
+                "woldo": "09",
+                "name": "saeobsodeugse",
+                "item": "사업소득세",
+                "pay": 0
+            },
+            {
+                "ID": 9,
+                "woldo": "09",
+                "name": "jepumnaesu",
+                "item": "제품내수",
+                "pay": 0
+            },
+            {
+                "ID": 10,
+                "woldo": "09",
+                "name": "byeongga",
+                "item": "병가",
+                "pay": 0
+            },
+            {
+                "ID": 11,
+                "woldo": "09",
+                "name": "yeonmaljeongsanso",
+                "item": "연말정산(소)",
+                "pay": 0
+            },
+            {
+                "ID": 12,
+                "woldo": "09",
+                "name": "yeonmaljeongsanji",
+                "item": "연말정산(지)",
+                "pay": 0
+            },
+            {
+                "ID": 13,
+                "woldo": "09",
+                "name": "geunsoggongje",
+                "item": "근속공제",
+                "pay": 0
+            },
+            {
+                "ID": 14,
+                "woldo": "09",
+                "name": "gongjenaeyeog",
+                "item": "공제내역",
+                "pay": 215640
+            }
+        ],
+        "산정근거": [
+            {
+                "ID": 1,
+                "woldo": "09",
+                "name": "gongjeilsu",
+                "item": "공제일수",
+                "pay": 0
+            },
+            {
+                "ID": 2,
+                "woldo": "09",
+                "name": "chonggeunlosigansu",
+                "item": "총근로시간수",
+                "pay": 255
+            },
+            {
+                "ID": 3,
+                "woldo": "09",
+                "name": "yeonjanggeunlosigansu",
+                "item": "연장근로시간수",
+                "pay": 32
+            },
+            {
+                "ID": 4,
+                "woldo": "09",
+                "name": "yagangeunlosigansu",
+                "item": "야간근로시간수",
+                "pay": 6
+            },
+            {
+                "ID": 5,
+                "woldo": "09",
+                "name": "hyuilgeunlosigansu",
+                "item": "휴일근로시간수",
+                "pay": 0
+            }
+        ],
+        "산출식": [
+            {
+                "ID": 1,
+                "woldo": "09",
+                "name": "yeonjanggasanyul",
+                "item": "연장가산율",
+                "pay": 1
+            },
+            {
+                "ID": 2,
+                "woldo": "09",
+                "name": "hyuilgasanyul",
+                "item": "휴일가산율",
+                "pay": 1.5
+            },
+            {
+                "ID": 3,
+                "woldo": "09",
+                "name": "hyuilyeonjanggasanyul",
+                "item": "휴일연장가산율",
+                "pay": 2
+            },
+            {
+                "ID": 4,
+                "woldo": "09",
+                "name": "yagangasanyul",
+                "item": "야간가산율",
+                "pay": 3
+            }
+        ]
+    }
+],
+"c": [
+    {
+        "jigeob": [
+            
+            {
+                "ID": 1,
+                "woldo": "10",
+                "name": "basic",
+                "item": "기본급여",
+                "pay": 1800000
+            },
+            {
+                "ID": 2,
+                "woldo": "10",
+                "name": "juhyusudang",
+                "item": "주휴수당",
+                "pay": 200000
+            },
+            {
+                "ID": 3,
+                "name": "yeonjangsudang",
+                "item": "연장수당",
+                "pay": 130000
+            },
+            {
+                "ID": 4,
+                "woldo": "10",
+                "name": "yagansudang",
+                "item": "야간수당",
+                "pay": 38000
+            },
+            {
+                "ID": 5,
+                "woldo": "10",
+                "name": "yeonchasudang",
+                "item": "연차수당",
+                "pay": 0
+            },
+            {
+                "ID": 6,
+                "woldo": "10",
+                "name": "hyuilsudang",
+                "item": "휴일수당",
+                "pay": 240000
+            },
+            {
+                "ID": 7,
+                "woldo": "10",
+                "name": "hyueobsudang",
+                "item": "휴업수당",
+                "pay": 0
+            },
+            {
+                "ID": 8,
+                "woldo": "10",
+                "name": "sigdae",
+                "item": "식대",
+                "pay": 100000
+            },
+            {
+                "ID": 9,
+                "woldo": "10",
+                "name": "boyugsudang",
+                "item": "보육수당",
+                "pay": 0
+            },
+            {
+                "ID": 10,
+                "woldo": "10",
+                "name": "unjeonbojogeum",
+                "item": "운전보조금",
+                "pay": 100000
+            },
+            {
+                "ID": 11,
+                "woldo": "10",
+                "name": "myeongjeolsudang",
+                "item": "명절수당",
+                "pay": 0
+            },
+            {
+                "ID": 12,
+                "woldo": "10",
+                "name": "Decwolchaaeg",
+                "item": "12월차액",
+                "pay": 0
+            },
+            {
+                "ID": 13,
+                "woldo": "10",
+                "name": "sangyeo",
+                "item": "상여",
+                "pay": 0
+            },
+            {
+                "ID": 14,
+                "woldo": "10",
+                "name": "jigeubhabgye",
+                "item": "지급합계",
+                "pay": 2251640
+            },
+            {
+                "ID": 15,
+                "woldo": "10",
+                "name": "silsulyeongaeg",
+                "item": "실수령액",
+                "pay": 3188100
+            }
+        ],
+        "공제항목": [
+            {
+                "ID": 1,
+                "woldo": "10",
+                "name": "geunsoggongjejigeub",
+                "item": "근속공제",
+                "pay": 0
+            },
+            {
+                "ID": 2,
+                "woldo": "10",
+                "name": "gugminyeongeum",
+                "item": "국민연금",
+                "pay": 80000
+            },
+            {
+                "ID": 3,
+                "woldo": "10",
+                "name": "geongangboheom",
+                "item": "건강보험",
+                "pay": 20000
+            },
+            {
+                "ID": 4,
+                "woldo": "10",
+                "name": "goyongboheom",
+                "item": "고용보험",
+                "pay": 4000
+            },
+            {
+                "ID": 5,
+                "woldo": "10",
+                "name": "janggiyoyangboheom",
+                "item": "장기요양보험",
+                "pay": 2500
+            },
+            {
+                "ID": 6,
+                "woldo": "10",
+                "name": "sodeugse",
+                "item": "소득세",
+                "pay": 18000
+            },
+            {
+                "ID": 7,
+                "woldo": "10",
+                "name": "jibangsodeugse",
+                "item": "지방소득세",
+                "pay": 9500
+            },
+            {
+                "ID": 8,
+                "woldo": "10",
+                "name": "saeobsodeugse",
+                "item": "사업소득세",
+                "pay": 0
+            },
+            {
+                "ID": 9,
+                "woldo": "10",
+                "name": "jepumnaesu",
+                "item": "제품내수",
+                "pay": 0
+            },
+            {
+                "ID": 10,
+                "woldo": "10",
+                "name": "byeongga",
+                "item": "병가",
+                "pay": 0
+            },
+            {
+                "ID": 11,
+                "woldo": "10",
+                "name": "yeonmaljeongsanso",
+                "item": "연말정산(소)",
+                "pay": 0
+            },
+            {
+                "ID": 12,
+                "woldo": "10",
+                "name": "yeonmaljeongsanji",
+                "item": "연말정산(지)",
+                "pay": 0
+            },
+            {
+                "ID": 13,
+                "woldo": "10",
+                "name": "geunsoggongje",
+                "item": "근속공제",
+                "pay": 0
+            },
+            {
+                "ID": 14,
+                "woldo": "10",
+                "name": "gongjenaeyeog",
+                "item": "공제내역",
+                "pay": 425640
+            }
+        ],
+        "산정근거": [
+            {
+                "ID": 1,
+                "woldo": "10",
+                "name": "gongjeilsu",
+                "item": "공제일수",
+                "pay": 0
+            },
+            {
+                "ID": 2,
+                "woldo": "10",
+                "name": "chonggeunlosigansu",
+                "item": "총근로시간수",
+                "pay": 155
+            },
+            {
+                "ID": 3,
+                "woldo": "10",
+                "name": "yeonjanggeunlosigansu",
+                "item": "연장근로시간수",
+                "pay": 340
+            },
+            {
+                "ID": 4,
+                "woldo": "10",
+                "name": "yagangeunlosigansu",
+                "item": "야간근로시간수",
+                "pay": 0
+            },
+            {
+                "ID": 5,
+                "woldo": "10",
+                "name": "hyuilgeunlosigansu",
+                "item": "휴일근로시간수",
+                "pay": 0
+            }
+        ],
+        "산출식": [
+            {
+                "ID": 1,
+                "woldo": "10",
+                "name": "yeonjanggasanyul",
+                "item": "연장가산율",
+                "pay": 1
+            },
+            {
+                "ID": 2,
+                "woldo": "10",
+                "name": "hyuilgasanyul",
+                "item": "휴일가산율",
+                "pay": 1.5
+            },
+            {
+                "ID": 3,
+                "woldo": "10",
+                "name": "hyuilyeonjanggasanyul",
+                "item": "휴일연장가산율",
+                "pay": 2
+            },
+            {
+                "ID": 4,
+                "woldo": "10",
+                "name": "yagangasanyul",
+                "item": "야간가산율",
+                "pay": 3
+            }
+        ]
+    }
+]
+}

@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import { externalEvents, externalEvents2, externalEvents3, externalEvents4, externalEvents5 } from './data';
 import { Button, } from 'react-bootstrap';
-// import { eventTupleToStore } from '@fullcalendar/react';
+import { eventTupleToStore } from '@fullcalendar/react';
 
 const SidePanel = () => {
     return (

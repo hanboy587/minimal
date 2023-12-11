@@ -8,14 +8,14 @@ import AccountLayout from './AccountLayout';
 import { useLogin } from './hooks';
 import KakaoLogin from './KakaoLogin';
 import NaverLogin from './NaverLogin';
-// import ReCAPTCHA from "react-google-recaptcha";
+import ReCAPTCHA from "react-google-recaptcha";
 
 import { useToggle } from 'hooks';
 import { useModal } from './hooks';
 import logodark from 'assets/images/logo-dark.png';
 import { useTypeahead } from './hooks';
 import Select from 'react-select';
-// import { Typeahead } from 'react-bootstrap-typeahead';
+import { Typeahead } from 'react-bootstrap-typeahead';
 import classNames from 'classnames';
 import { useState } from 'react';
 import axios from 'axios';

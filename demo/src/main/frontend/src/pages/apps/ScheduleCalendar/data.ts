@@ -1,4 +1,4 @@
-import { EventInput } from '@fullcalendar/core';
+import { EventInput } from '@fullcalendar/react';
 
 //  className="d-none" 으로 data숨김처리 함
 // 기존코드는 className="bg-danger" 등 배경 bg- + '색상' 임
