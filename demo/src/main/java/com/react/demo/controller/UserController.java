@@ -1,35 +1,36 @@
 package com.react.demo.controller;
 
-import com.react.demo.repository.UserRepsitory;
+import com.react.demo.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Map;
 
 @RestController
 @RequiredArgsConstructor //service 사용 가능
+@RequestMapping("/api")
+@CrossOrigin
 public class UserController {
     // 생성자 주입
 //    private final UserService userService;
     @Autowired
-    UserRepsitory userRepsitory;
+    UserRepository userRepository;
 
-    @GetMapping("/api/hello")
+    @GetMapping("/hello")
     public String test() {
         return "시작해보자";
     }
-    @GetMapping("/api/getusernames")
+    @GetMapping("/getusernames")
     public List<String> getAllUserNames() {
-        return userRepsitory.getAllUserNames();
+        return userRepository.getAllUserNames();
     }
 
-    @GetMapping("/api/getUserList")
+    @GetMapping("/getUserList")
     public List<Map<String, Object>> getUserList() {
-        return userRepsitory.getAllUsers();
+        return userRepository.getAllUsers();
     }
+
 
 }
